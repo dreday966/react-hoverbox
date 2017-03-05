@@ -1,0 +1,8 @@
+node_modules
+ncp-debug.log
+npm-debug.log
+public/dist/
+public/index.html
+canva.css
+shuttersock.css
+.vscode/
