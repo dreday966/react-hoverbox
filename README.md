@@ -1,9 +1,15 @@
 ### install
 #### npm i hoverbox -S
 
+### this is react component
+
 ### usage
+HoverBox is a div box that manage hover state,
 u can pass every prop as a value or function.When porp is function, this prop is calculate with this function.
 ```
+import React from 'react';
+import HoverBox from 'hoverbox';
+
 // dynamic children and fixed style
 <HoverBox
   style={{color: 'red'}}>
@@ -21,4 +27,10 @@ u can pass every prop as a value or function.When porp is function, this prop is
   style={isHover => ({color: isHover ? 'red' : 'blue'})}>
     Hello HoverBox
 </HoverBox>
+```
+
+### ps
+there is also a FocusBox
+```
+import {FocusBox} from 'hoverbox';
 ```
