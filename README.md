@@ -30,9 +30,11 @@ import HoverBox from 'hoverbox';
     Hello HoverBox
 </HoverBox>
 ```
+#### See the Pen <a href='https://codepen.io/dreday/pen/JWKmdM/'>HoverBox Demo</a>
 
 ### ps
 there is also a FocusBox
 ```
 import {FocusBox} from 'hoverbox';
 ```
+
