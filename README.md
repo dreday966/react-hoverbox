@@ -1,11 +1,12 @@
-## react component manage the hover state with simple api
+# react component manage the hover state with simple api
 
-### install
-#### npm i hoverbox -S
+## install
+```
+npm i hoverbox -S
+```
 
 
-
-### usage
+## usage
 HoverBox is a div box that manage hover state,
 u can pass every prop as a value or function.When porp is function, final prop is calculate with this function.
 ```
@@ -30,9 +31,9 @@ import HoverBox from 'hoverbox';
     Hello HoverBox
 </HoverBox>
 ```
-#### See the Pen <a href='https://codepen.io/dreday/pen/JWKmdM/'>HoverBox Demo</a>
+### See the Pen <a href='https://codepen.io/dreday/pen/JWKmdM/'>HoverBox Demo</a>
 
-### ps
+## ps
 there is also a FocusBox
 ```
 import {FocusBox} from 'hoverbox';
